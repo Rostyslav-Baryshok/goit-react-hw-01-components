@@ -1,12 +1,12 @@
 import s from './App.module.css';
-import Profile from './profile/Profile';
+import { Profile } from './profile/Profile';
 import user from '../data/user.json';
 import statistics from '../data/statistics.json';
 import friends from '../data/friends.json';
 import transactions from '../data/transactions.json';
-import Statistics from './statistics/Statistics';
+import { Statistics } from './statistics/Statistics';
 import { FriendList } from './friend-list/FriendList';
-import TransactionHistory from './transaction-history/TransactionHistory';
+import { TransactionHistory } from './transaction-history/TransactionHistory';
 
 export const App = () => {
   return (

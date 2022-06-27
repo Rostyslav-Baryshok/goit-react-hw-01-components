@@ -2,7 +2,7 @@ import s from './Statistics.module.css';
 import PropTypes from 'prop-types';
 import { colors } from './BackgroundColors';
 
-const Statistics = ({ title, stats }) => {
+export const Statistics = ({ title, stats }) => {
   return (
     <section className={s.statistics}>
       {title && <h2 className={s.title}>{title}</h2>}
@@ -29,5 +29,3 @@ Statistics.propTypes = {
   title: PropTypes.string,
   stats: PropTypes.array.isRequired,
 };
-
-export default Statistics;
