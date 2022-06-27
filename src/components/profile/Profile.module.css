@@ -42,6 +42,9 @@
 .stats .statsItem:not(:last-child) {
   border-right: 1px solid #e4e9f0;
 }
+.label {
+  margin-top: 10px;
+}
 
 .statsItem {
   display: flex;

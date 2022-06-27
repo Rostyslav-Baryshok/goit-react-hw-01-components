@@ -1,6 +1,10 @@
 import PropTypes from 'prop-types';
 import css from './Profile.module.css';
 
+import { HiUserGroup } from 'react-icons/hi';
+import { HiVideoCamera } from 'react-icons/hi';
+import { HiThumbUp } from 'react-icons/hi';
+
 export const Profile = ({
   username,
   tag,
@@ -16,17 +20,19 @@ export const Profile = ({
         <p className={css.tag}>@{tag}</p>
         <p className={css.location}>{location}</p>
       </div>
-
       <ul className={css.stats}>
         <li className={css.statsItem}>
+          <HiUserGroup />
           <span className={css.label}>Followers</span>
           <span className={css.quantity}>{followers}</span>
         </li>
         <li className={css.statsItem}>
+          <HiVideoCamera />
           <span className={css.label}>Views</span>
           <span className={css.quantity}>{views}</span>
         </li>
         <li className={css.statsItem}>
+          <HiThumbUp />
           <span className={css.label}>Likes</span>
           <span className={css.quantity}>{likes}</span>
         </li>
