@@ -22,17 +22,17 @@ export const Profile = ({
       </div>
       <ul className={css.stats}>
         <li className={css.statsItem}>
-          <HiUserGroup />
+          <HiUserGroup className={css.icon} />
           <span className={css.label}>Followers</span>
           <span className={css.quantity}>{followers}</span>
         </li>
         <li className={css.statsItem}>
-          <HiVideoCamera />
+          <HiVideoCamera className={css.icon} />
           <span className={css.label}>Views</span>
           <span className={css.quantity}>{views}</span>
         </li>
         <li className={css.statsItem}>
-          <HiThumbUp />
+          <HiThumbUp className={css.icon} />
           <span className={css.label}>Likes</span>
           <span className={css.quantity}>{likes}</span>
         </li>
