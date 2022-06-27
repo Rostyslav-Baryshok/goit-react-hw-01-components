@@ -1,9 +1,7 @@
 import PropTypes from 'prop-types';
 import css from './Profile.module.css';
 
-import { HiUserGroup } from 'react-icons/hi';
-import { HiVideoCamera } from 'react-icons/hi';
-import { HiThumbUp } from 'react-icons/hi';
+import { HiUserGroup, HiVideoCamera, HiThumbUp } from 'react-icons/hi';
 
 export const Profile = ({
   username,
