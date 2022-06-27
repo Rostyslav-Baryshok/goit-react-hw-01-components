@@ -1,4 +1,4 @@
-import s from './App.module.css';
+import css from './App.module.css';
 import user from '../data/user.json';
 import statistics from '../data/statistics.json';
 import friends from '../data/friends.json';
@@ -10,7 +10,7 @@ import { TransactionHistory } from 'components/transaction-history/TransactionHi
 
 export const App = () => {
   return (
-    <div className={s.appWrapper}>
+    <div className={css.appWrapper}>
       <Profile
         tag={user.tag}
         location={user.location}
