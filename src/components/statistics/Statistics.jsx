@@ -1,6 +1,6 @@
-import css from './Statistics.module.css';
+import css from './statistics.module.css';
 import PropTypes from 'prop-types';
-import { colors } from './BackgroundColors';
+import { colors } from 'utils/background-colors';
 
 export const Statistics = ({ title, stats }) => {
   return (

@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import css from './Profile.module.css';
+import css from './profile.module.css';
 
 import { HiUserGroup, HiVideoCamera, HiThumbUp } from 'react-icons/hi';
 
