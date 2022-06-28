@@ -2,7 +2,7 @@
   width: 380px;
   display: inline-block;
   box-shadow: 0px 0px 10px -1px;
-  color: #4a4c4ed6;
+  color: var(--primary-shade);
   border-radius: 9px;
   overflow: hidden;
 }
@@ -14,7 +14,7 @@
   font-weight: 600;
   line-height: 1;
   padding: 25px 10px;
-  color: #212121;
+  color: var(--primary);
 }
 
 .statList {
@@ -28,7 +28,7 @@
   justify-content: center;
   padding: 10px;
   min-width: 76px;
-  color: white;
+  color: var(--secondary-shade-four);
 }
 
 .label {

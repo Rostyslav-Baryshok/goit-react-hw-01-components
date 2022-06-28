@@ -9,8 +9,8 @@
 }
 
 thead {
-  background-color: #00bcd5;
-  color: #fafafa;
+  background-color: var(--primary-decor-shade);
+  color: var(--secondary-shade-four);
   text-transform: uppercase;
 }
 tbody {
@@ -23,13 +23,13 @@ td {
 }
 
 tbody tr:nth-child(2n) {
-  background-color: #ecf1f4;
+  background-color: var(--secondary-shade-two);
 }
 
 tr td:not(:last-child) {
-  border-right: 1px solid #e4e4e4;
+  border-right: 1px solid var(--secondary-shade-three);
 }
 
 tr th:not(:last-child) {
-  border-right: 1px solid #e4e4e4;
+  border-right: 1px solid var(--secondary-shade-three);
 }

@@ -3,7 +3,7 @@
   border-radius: 9px;
   overflow: hidden;
   font-size: 16px;
-  color: #4a4c4ed6;
+  color: var(--primary-shade);
   box-shadow: 0px 0px 10px -1px;
 }
 
@@ -22,7 +22,7 @@
   margin-top: 25px;
   font-size: 25px;
   font-weight: 500;
-  color: #212121;
+  color: var(--primary);
 }
 
 .tag {
@@ -36,11 +36,11 @@
 .stats {
   display: flex;
   text-align: center;
-  border-top: 1px solid #e4e9f0;
+  border-top: 1px solid var(--secondary);
 }
 
 .stats .statsItem:not(:last-child) {
-  border-right: 1px solid #e4e9f0;
+  border-right: 1px solid var(--secondary);
 }
 .label {
   margin-top: 10px;
@@ -52,15 +52,14 @@
   align-items: center;
   flex-basis: 33.333%;
   padding: 20px 5px;
-  background-color: #f3f6f9;
+  background-color: var(--secondary-shade);
 }
 
 .quantity {
   margin-top: 5px;
   font-weight: 700;
-  color: rgb(0, 0, 0);
+  color: var(--primary);
 }
 .icon {
-  color: #49b6ff;
-  /* size: 15px; */
+  color: var(--primary-decor);
 }
