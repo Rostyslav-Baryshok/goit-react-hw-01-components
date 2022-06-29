@@ -3,8 +3,8 @@ import user from './data/user.json';
 import statistics from './data/statistics.json';
 import friends from './data/friends.json';
 import transactions from './data/transactions.json';
-import { Profile } from 'components/srofile/Profile';
-import { Statistics } from 'components/statistics/Statistics';
+import { Profile } from 'components/Еrofile/Profile';
+import { Statistics } from 'components/Etatistics/Statistics';
 import { FriendList } from 'components/FriendList/FriendList';
 import { TransactionHistory } from 'components/TransactionHistory/TransactionHistory';
 
