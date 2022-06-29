@@ -1,7 +1,2 @@
-export const colors = {
-  0: `#4fc5f7`,
-  1: '#a43cf3',
-  2: '#e64c66',
-  3: '#0aa626',
-  4: '#6291ff',
-};
+export const getRandomHexColor = () =>
+  `#${Math.floor(Math.random() * 16777215).toString(16)}`;
