@@ -36,11 +36,11 @@
 .stats {
   display: flex;
   text-align: center;
-  border-top: 1px solid var(--secondary);
+  border-top: 1.5px solid var(--secondary-shade-four);
 }
 
 .stats .statsItem:not(:last-child) {
-  border-right: 1px solid var(--secondary);
+  border-right: 1.5px solid var(--secondary-shade-four);
 }
 .label {
   margin-top: 10px;
@@ -52,7 +52,7 @@
   align-items: center;
   flex-basis: 33.333%;
   padding: 20px 5px;
-  background-color: var(--secondary-shade);
+  background-color: var(--secondary-shade-two);
 }
 
 .quantity {
