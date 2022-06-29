@@ -1,5 +1,4 @@
 import PropTypes from 'prop-types';
-// import cn from 'classnames';
 import css from './friend-list.module.css';
 
 export const FriendList = ({ friends }) => {
