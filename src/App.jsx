@@ -11,6 +11,7 @@ import { TransactionHistory } from 'components/TransactionHistory/TransactionHis
 export const App = () => {
   return (
     <div className={css.appWrap}>
+      Pro
       <Profile
         tag={user.tag}
         location={user.location}
