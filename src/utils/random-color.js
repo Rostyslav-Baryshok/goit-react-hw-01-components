@@ -1,6 +1,3 @@
-// export const getRandomHexColor = () =>
-//   `#${Math.floor(('00000' + Math.random() * 0xffffff) << 0).toString(16)}`;
-
 export const getRandomHexColor = () => {
   let r = Math.floor(Math.random() * 255);
   let g = Math.floor(Math.random() * 255);
