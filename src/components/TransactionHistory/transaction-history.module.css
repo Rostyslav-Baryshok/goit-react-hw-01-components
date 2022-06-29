@@ -10,7 +10,6 @@
 
 thead {
   background-color: var(--primary-decor-shade);
-  color: var(--secondary-shade-four);
   text-transform: uppercase;
 }
 tbody {
